@@ -1,0 +1,831 @@
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: [Error: Rouut is not exits!] {
+    statusCode: 404,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsers validation failed: password: Invalid password Minimum 8 characters required., role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      password: ValidatorError: Invalid password Minimum 8 characters required.
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Invalid password Minimum 8 characters required.',
+          type: 'minlength',
+          minlength: 8,
+          path: 'password',
+          value: '1234'
+        },
+        kind: 'minlength',
+        path: 'password',
+        value: '1234',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'Manager'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'Manager',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsers validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsers validation failed: role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'Manager'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'Manager',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsers validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsers validation failed: role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'Manager'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'Manager',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsers validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsers validation failed: role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'Manager'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'Manager',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsers validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsers validation failed: role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'dd'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'dd',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsers validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: Error: secretOrPrivateKey must have a value
+      at module.exports (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\jsonwebtoken\sign.js:105:20)
+      at model.userSchema.methods.generateAuthToken (E:\Fixed Tasks\New folder\Auth-LogingModule\src\Models\user.model.ts:119:24)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\src\Services\auth.service.ts:113:24
+      at step (E:\Fixed Tasks\New folder\Auth-LogingModule\src\Services\auth.service.ts:33:23)
+      at Object.next (E:\Fixed Tasks\New folder\Auth-LogingModule\src\Services\auth.service.ts:14:53)
+      at fulfilled (E:\Fixed Tasks\New folder\Auth-LogingModule\src\Services\auth.service.ts:5:58)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/user',
+  method: 'PATCH',
+  error: [Error: Rouut is not exits!] {
+    statusCode: 404,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsersAhmed validation failed: password: Invalid password Minimum 8 characters required.
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      password: ValidatorError: Invalid password Minimum 8 characters required.
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Invalid password Minimum 8 characters required.',
+          type: 'minlength',
+          minlength: 8,
+          path: 'password',
+          value: '1234'
+        },
+        kind: 'minlength',
+        path: 'password',
+        value: '1234',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsersAhmed validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsersAhmed validation failed: role: Role must be user or admin
+      at ValidationError.inspect (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:806:19)
+      at formatProperty (node:internal/util/inspect:1920:11)
+      at formatRaw (node:internal/util/inspect:1055:9)
+      at formatValue (node:internal/util/inspect:841:10)
+      at inspect (node:internal/util/inspect:365:10)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      role: ValidatorError: Role must be user or admin
+          at validate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\schematype.js:1333:7)
+          at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongoose\lib\document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Role must be user or admin',
+          type: 'enum',
+          enumValues: [ 'Admin', 'User', 'PM', 'DM' ],
+          path: 'role',
+          value: 'Manager'
+        },
+        kind: 'enum',
+        path: 'role',
+        value: 'Manager',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsersAhmed validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: MongoServerError: E11000 duplicate key error collection: test.authusersahmeds index: email_1 dup key: { email: "s@gmail.com" }
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\operations\insert.ts:85:25
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection_pool.ts:574:11
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:368:13
+      at handleOperationResult (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:516:14)
+      at Connection.onMessage (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:418:5)
+      at MessageStream.<anonymous> (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:243:56)
+      at MessageStream.emit (node:events:513:28)
+      at MessageStream.emit (node:domain:489:12)
+      at processIncomingData (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:187:12)
+      at MessageStream._write (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:68:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 's@gmail.com' },
+    statusCode: 500,
+    status: 'Error',
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: MongoServerError: E11000 duplicate key error collection: test.authusersahmeds index: email_1 dup key: { email: "s@gmail.com" }
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\operations\insert.ts:85:25
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection_pool.ts:574:11
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:368:13
+      at handleOperationResult (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:516:14)
+      at Connection.onMessage (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:418:5)
+      at MessageStream.<anonymous> (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:243:56)
+      at MessageStream.emit (node:events:513:28)
+      at MessageStream.emit (node:domain:489:12)
+      at processIncomingData (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:187:12)
+      at MessageStream._write (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:68:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 's@gmail.com' },
+    statusCode: 500,
+    status: 'Error',
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: MongoServerError: E11000 duplicate key error collection: test.authusersahmeds index: email_1 dup key: { email: "z@gmail.com" }
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\operations\insert.ts:85:25
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection_pool.ts:574:11
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:368:13
+      at handleOperationResult (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\sdam\server.ts:516:14)
+      at Connection.onMessage (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:418:5)
+      at MessageStream.<anonymous> (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\connection.ts:243:56)
+      at MessageStream.emit (node:events:513:28)
+      at MessageStream.emit (node:domain:489:12)
+      at processIncomingData (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:187:12)
+      at MessageStream._write (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\mongodb\src\cmap\message_stream.ts:68:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'z@gmail.com' },
+    statusCode: 500,
+    status: 'Error',
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: In-vaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '//api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '//api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '//api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: SyntaxError: Unexpected token { in JSON at position 3
+      at JSON.parse (<anonymous>)
+      at parse (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\types\json.js:89:19)
+      at E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\body-parser\lib\read.js:128:18
+      at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+      at invokeCallback (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:231:16)
+      at done (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:220:7)
+      at IncomingMessage.onEnd (E:\Fixed Tasks\New folder\Auth-LogingModule\node_modules\express\node_modules\raw-body\index.js:280:7)
+      at IncomingMessage.emit (node:events:513:28)
+      at IncomingMessage.emit (node:domain:489:12)
+      at endReadableNT (node:internal/streams/readable:1359:12) {
+    expose: true,
+    statusCode: 400,
+    status: 400,
+    body: '{\n {\n "email":"v@gmail.com",\n "password":"123445678"\n}\n}',
+    type: 'entity.parse.failed'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: Error: authUsersAhmed validation failed: firstName: Invalid first name Minimum 3 characters required.
+      at ValidationError.inspect (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongoose/lib/error/validation.js:50:26)
+      at formatValue (node:internal/util/inspect:804:19)
+      at formatProperty (node:internal/util/inspect:1944:11)
+      at formatRaw (node:internal/util/inspect:1053:9)
+      at formatValue (node:internal/util/inspect:839:10)
+      at inspect (node:internal/util/inspect:363:10)
+      at Format.transform (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/logform/pretty-print.js:27:19)
+      at Format.transform (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/logform/combine.js:20:24)
+      at DerivedLogger._transform (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/winston/lib/winston/logger.js:313:29)
+      at DerivedLogger.Transform._read (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/readable-stream/lib/_stream_transform.js:166:10) {
+    errors: {
+      firstName: ValidatorError: Invalid first name Minimum 3 characters required.
+          at validate (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongoose/lib/schematype.js:1349:13)
+          at SchemaString.SchemaType.doValidate (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongoose/lib/schematype.js:1333:7)
+          at /media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongoose/lib/document.js:2932:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Invalid first name Minimum 3 characters required.',
+          type: 'minlength',
+          minlength: 3,
+          path: 'firstName',
+          value: 'An'
+        },
+        kind: 'minlength',
+        path: 'firstName',
+        value: 'An',
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'authUsersAhmed validation failed',
+    statusCode: 500,
+    status: 'Error'
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: MongoServerError: E11000 duplicate key error collection: test.authusersahmeds index: email_1 dup key: { email: "pppp@gmail.com" }
+      at /media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/operations/insert.ts:85:25
+      at /media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/cmap/connection_pool.ts:574:11
+      at /media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/sdam/server.ts:368:13
+      at handleOperationResult (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/sdam/server.ts:516:14)
+      at Connection.onMessage (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/cmap/connection.ts:418:5)
+      at MessageStream.<anonymous> (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/cmap/connection.ts:243:56)
+      at MessageStream.emit (node:events:512:28)
+      at MessageStream.emit (node:domain:489:12)
+      at processIncomingData (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/cmap/message_stream.ts:187:12)
+      at MessageStream._write (/media/ahmed/Adel/Fedis/Auth-LogingModule/node_modules/mongodb/src/cmap/message_stream.ts:68:5) {
+    index: 0,
+    code: 11000,
+    keyPattern: { email: 1 },
+    keyValue: { email: 'pppp@gmail.com' },
+    statusCode: 500,
+    status: 'Error',
+    [Symbol(errorLabels)]: Set(0) {}
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: [Error:  pppp@gmail.com already exists.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: [Error:  pppp@gmail.com already exists.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/login',
+  method: 'POST',
+  error: [Error: Invaild email or password.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: [Error:  sw@gmail.com already exists.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
+{
+  url: '/api/v1/auth/register',
+  method: 'POST',
+  error: [Error:  sw@gmail.com already exists.] {
+    statusCode: 400,
+    status: 'fail',
+    isOperational: true
+  },
+  level: 'error',
+  message: 'Uncaught Exception:'
+}
